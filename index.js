@@ -30,7 +30,16 @@ console.log(stringTwo.slice(1,3));
 // split()
 console.log(stringTwo.split(''));
 console.log(stringTwo.split(' '));
-// slice()
-console.log();
-// slice()
-console.log();
+//startsWith ()
+console.log(stringOne.startsWith('bob'));
+// substr()
+console.log(stringTwo.substr(1,2));
+// substring()
+console.log(stringTwo.substring(1,2));
+// toLowerCase()
+console.log(stringTwo.toLocaleLowerCase());
+// toUpperCase()
+console.log(stringTwo.toUpperCase());
+// trim ()
+let stringThree = '     Nice to see you          '
+console.log(stringThree.trim());
